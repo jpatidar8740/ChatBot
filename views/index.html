@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Websocket Tutorial</title>
+        <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
+        <link href="/style.css" rel="stylesheet">
+        
+    </head>
+
+    <body>
+
+        <input placeholder='Username' type='text' id='username'>
+        <input placeholder='Password' type="password" id='password'>
+        <button id='login'>Login</button>
+        <div id='chat-bot'>
+            <div id='chat-window'>
+                <div id='output'></div>
+                <div id = 'feedback'></div>
+            </div>
+
+            <input type='text' placeholder="Handle" id='handle' value="">
+            <input type="text" placeholder="Message" id='message'>
+            <button id='send'>Send</button>
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js'></script>
+        <script src="js/chat.js"></script>
+        <!--<script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js'></script>
+        <script src='js/script.js'></script> -->
+    </body>
+
+</html>
